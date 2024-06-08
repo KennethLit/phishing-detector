@@ -8,9 +8,9 @@ const App = () => {
         <h1>Phishing Website Detection</h1>
         <nav>
           <ul>
-            <li><a href="#proposal">Project Proposal</a></li>
-            <li><a href="#dataset">Dataset</a></li>
-            <li><a href="#features">Features</a></li>
+            <li><a href="#proposal">Abstract</a></li>
+            <li><a href="#dataset-features">Dataset & Features</a></li>
+            <li><a href="/demo">Demo</a></li>
           </ul>
         </nav>
       </header>
@@ -26,18 +26,14 @@ const App = () => {
           </p>
         </section>
 
-        <section id="dataset">
-          <h2>Dataset</h2>
+        <section id="dataset-features">
+          <h2>Dataset & Features</h2>
           <p>
             The dataset used for this project is available on Kaggle: <a href="https://www.kaggle.com/datasets/prishasawhney/phishing-url-website-dataset-cleaned" target="_blank" rel="noopener noreferrer">Phishing URL Website Dataset (Cleaned)</a>
           </p>
           <p>
             The dataset contains numerous relevant features (15+) for detecting phishing websites such as URL and HTML markers, HTTP protocols, and images/scripts. The original UCI dataset has been cleaned using outlier removal and feature selection techniques.
           </p>
-        </section>
-
-        <section id="features">
-          <h2>Features</h2>
           <p>Some of the relevant features in the dataset include:</p>
           <ul>
             <li>URL and HTML markers</li>
