@@ -1,0 +1,37 @@
+.demo-page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .demo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .demo-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .demo-nav ul li {
+    margin-left: 20px;
+  }
+  
+  .demo-nav ul li button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #333;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .demo-nav ul li button:hover {
+    text-decoration: underline;
+  }
